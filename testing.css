@@ -1,0 +1,35 @@
+body{
+    background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/10/21/20181/cad2441dd3252cf53f12154412286ba0.jpg');
+    padding:50px;
+}
+
+#login-dp .social-buttons{
+    
+    margin :12px 0;
+        margin:auto 0;
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+.button{
+    color: #fff;
+    background-color: azure;
+    width: 40;
+}

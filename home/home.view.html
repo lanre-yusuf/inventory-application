@@ -1,0 +1,27 @@
+<html>
+<title> </title>
+<head>
+    <p> <header ng-include="'nav.home.html'">
+  </header> </p>
+<h1>Hi {{vm.user.firstName}}!</h1>
+<p>You're logged in!!</p>
+        
+
+    
+    </head>
+<body>
+    <table>
+        <tr>
+            <td>UserName</td>
+            <td>FirstName</td>
+            <td>LastName</td>
+        </tr>
+        <tr ng-repeat="user in vm.allUsers"> 
+            <td> {{user.username}} </td>
+            <td>({{user.firstName}} </td> 
+            <td>{{user.lastName}}) </td>
+        </tr>
+    </table>
+    
+    </body>
+</html>
